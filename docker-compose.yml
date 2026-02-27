@@ -17,6 +17,9 @@ services:
     image: muzaffar81/frontend:latest
     ports:
       - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://54.165.243.216:8000
+      - REACT_APP_API_URL=http://54.165.243.216:8000
     depends_on:
       - backend
     restart: always
