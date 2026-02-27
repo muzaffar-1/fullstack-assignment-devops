@@ -5,9 +5,9 @@ services:
       - "8000:8000"
     environment:
       - DJANGO_SECRET_KEY=assignment_secret_123  # <--- Add this line
-      - DEBUG=True                                # (Optional) helps see errors
-      - ALLOWED_HOSTS="*"
-      - FRONTEND_URL=http://localhost:3000
+      - DEBUG=True
+      - ALLOWED_HOSTS=54.165.243.216,localhost,127.0.0.1
+      - FRONTEND_URL=http://54.165.243.216:3000
     command: uvicorn backend.asgi:application --host 0.0.0.0 --port 8000
     volumes:
       - ./backend:/app  # This keeps your sqlite database persistent
