@@ -47,3 +47,34 @@ Manual health checks are performed to monitor CPU and Memory usage:
   * **Fix:** Updated ALLOWED_HOSTS in docker-compose.yml to include the AWS IP.
 * **Issue:** Frontend 404 error on /login.
   * **Fix:** Corrected the NEXT_PUBLIC_API_URL to point to port 8000.
+
+    ---
+
+## 📸 Screenshots
+
+### 🔹 Ansible Provisioning
+![Ansible Provisioning](screenshots/ansible_provisioning.png)
+
+### 🔹 Docker Images Built
+![Docker Images](screenshots/docker_images.png)
+
+### 🔹 Docker Compose Up
+![Docker Compose Up](screenshots/docker_compose_up.png)
+
+### 🔹 Frontend UI
+![Frontend UI](screenshots/frontend_ui.png)
+
+### 🔹 Backend API Test
+![Backend API Test](screenshots/backend_api_test.png)
+
+### 🔹 GitHub Actions Pipeline
+![GitHub Actions Pipeline](screenshots/github_actions_pipeline.png)
+
+### 🔹 Container Status
+![Container Status](screenshots/container_status.png)
+
+### 🔹 Resource Usage
+![Resource Usage](screenshots/resource_usage.png)
+
+### 🔹 Runtime Logs
+![Runtime Logs](screenshots/runtime_logs.png)
