@@ -52,15 +52,6 @@ Manual health checks are performed to monitor CPU and Memory usage:
 
 ## 📸 Screenshots
 
-### 🔹 Ansible Provisioning
-![Ansible Provisioning](screenshots/ansible_provisioning.png)
-
-### 🔹 Docker Images Built
-![Docker Images](screenshots/docker_images.png)
-
-### 🔹 Docker Compose Up
-![Docker Compose Up](screenshots/docker_compose_up.png)
-
 ### 🔹 Frontend UI
 ![Frontend UI](screenshots/frontend_ui.png)
 
@@ -69,6 +60,15 @@ Manual health checks are performed to monitor CPU and Memory usage:
 
 ### 🔹 GitHub Actions Pipeline
 ![GitHub Actions Pipeline](screenshots/github_actions_pipeline.png)
+
+### 🔹 Ansible Provisioning
+![Ansible Provisioning](screenshots/ansible_provisioning.png)
+
+### 🔹 Docker Images Built
+![Docker Images](screenshots/docker_images.png)
+
+### 🔹 Docker Compose Up
+![Docker Compose Up](screenshots/docker_compose_up.png)
 
 ### 🔹 Container Status
 ![Container Status](screenshots/container_status.png)
