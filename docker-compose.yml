@@ -3,6 +3,12 @@ services:
     image: muzaffar81/backend:latest
     ports:
       - "8000:8000"
+    environment:
+      - DJANGO_SECRET_KEY=assignment_secret_123  # <--- Add this line
+      - DEBUG=True                                # (Optional) helps see errors
+      - ALLOWED_HOSTS="*"
+      - FRONTEND_URL=http://localhost:3000
+    command: uvicorn backend.asgi:application --host 0.0.0.0 --port 8000
     volumes:
       - ./backend:/app  # This keeps your sqlite database persistent
     restart: always
