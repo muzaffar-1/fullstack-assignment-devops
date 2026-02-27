@@ -1,0 +1,16 @@
+services:
+  backend:
+    image: fullstack-backend:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app  # This keeps your sqlite database persistent
+    restart: always
+
+  frontend:
+    image: fullstack-frontend:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: always
